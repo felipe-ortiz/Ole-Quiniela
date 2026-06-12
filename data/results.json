@@ -1,12 +1,24 @@
 {
-  "updated": null,
+  "updated": "2026-06-12T20:14:35.215Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
   "matches": {
-    "MEXvRSA": null,
-    "KORvCZE": null,
-    "CANvBIH": null,
+    "MEXvRSA": {
+      "home": 2,
+      "away": 0,
+      "status": "FINISHED"
+    },
+    "KORvCZE": {
+      "home": 2,
+      "away": 1,
+      "status": "FINISHED"
+    },
+    "CANvBIH": {
+      "home": 0,
+      "away": 1,
+      "status": "LIVE"
+    },
     "USAvPAR": null,
     "QATvSUI": null,
     "BRAvMAR": null,
