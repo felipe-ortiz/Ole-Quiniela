@@ -90,8 +90,9 @@ overwrite it:
 | `source/2026_Quiniela_Members.xlsx` | the original member spreadsheet |
 
 Predictions are parsed from the spreadsheet. To rebuild after editing it
-(team-name typos are auto-corrected, picks are stored from the picked team's
-perspective so away-win scorelines come out right):
+(team-name typos are auto-corrected, and every scoreline is normalised to
+**home–away** order — a winner-first cell like an away "Scotland 2-0" is stored
+as `0-2` home–away, matching the live results feed and standard scoreboards):
 
 ```bash
 pip3 install openpyxl

@@ -70,13 +70,12 @@ function fmtUpdated(iso) {
   return `updated ${new Date(iso).toLocaleDateString()}`;
 }
 
-// score chip for a pick result (predicted side)
-function pickScoreText(pick) {
+// Predicted scoreline, always rendered HOME–AWAY (home team's goals first) so
+// it reads identically to the actual result and to standard scoreboards.
+function pickScoreText(pick, m) {
   if (!pick) return "—";
-  if (pick.result === "T") return `Draw ${pick.hg ?? ""}-${pick.ag ?? ""}`;
-  const code = pick.team;
-  const sc = pick.result === "H" ? `${pick.hg}-${pick.ag}` : `${pick.ag}-${pick.hg}`;
-  return `${flag(code)} ${teamName(code)} ${sc}`;
+  const hg = pick.hg ?? "?", ag = pick.ag ?? "?";
+  return `<span class="sc">${flag(m.homeCode)} ${hg}-${ag} ${flag(m.awayCode)}</span>`;
 }
 
 // ---------- header chrome ----------
@@ -216,7 +215,7 @@ function renderPlayer(name) {
           <div class="meta">Group ${m.group} · ${esc(fmtKick(m.utcDate))}</div>
         </div>
         <div class="right">
-          <div class="ppick"><div class="lab">pick</div><span>${pickScoreText(pick)}</span></div>
+          <div class="ppick"><div class="lab">pick</div><span>${pickScoreText(pick, m)}</span></div>
           ${actualHtml}
           <div class="pp ${ps.status === "pending" ? "pending" : ps.status}">${ppLabel}</div>
         </div>
