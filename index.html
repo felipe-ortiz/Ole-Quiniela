@@ -111,6 +111,18 @@
   .chip.b { background: rgba(91,140,255,.16); color: var(--bonus); }
 
   .me-badge { font-size: 10px; font-weight: 800; color: var(--accent); border: 1px solid rgba(24,201,143,.4); border-radius: 6px; padding: 1px 5px; margin-left: 6px; vertical-align: middle; }
+  .pill-me { gap: 6px; cursor: pointer; }
+  .pill-me.set { border-color: rgba(24,201,143,.45); color: var(--ink); }
+  .pill-me select {
+    appearance: none; -webkit-appearance: none; background: transparent; border: 0;
+    color: inherit; font: inherit; font-size: 12px; font-weight: 700; outline: none; cursor: pointer;
+    max-width: 150px; padding-right: 15px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2398a2c7' fill='none' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right center;
+  }
+  .pill-me select option { color: #0a0f1e; }
+  table.board tbody tr.is-me { background: rgba(24,201,143,.10); }
+  table.board tbody tr.is-me:hover { background: rgba(24,201,143,.16); }
 
   /* ---------- player page ---------- */
   .player-head { display: flex; align-items: center; gap: 16px; padding: 18px; flex-wrap: wrap; }
@@ -198,6 +210,12 @@
       </div>
     </div>
     <div class="head-right">
+      <label class="pill pill-me" id="pill-me" title="Pick your name to highlight your row">
+        <span>🙋</span>
+        <select id="me-picker" aria-label="Choose your name">
+          <option value="">Set your name…</option>
+        </select>
+      </label>
       <span class="pill" id="pill-progress">⚽ <b id="prog-text">0 / 72</b> played</span>
       <span class="pill" id="pill-updated"><span class="live-dot"></span> <span id="upd-text">loading…</span></span>
     </div>

@@ -4,12 +4,12 @@
 import { leaderboard, scoreMember, MAX_POINTS, resultOf } from "./scoring.js";
 
 const REFRESH_MS = 90_000;            // poll results.json every 90s
-const ME = "Felipe Ortiz";            // highlighted as "you"
 
 const state = {
   teams: [], byCode: {}, matches: [], byId: {},
   predictions: null, results: null,
   tab: "leaderboard", player: null, lbCache: null, q: "",
+  me: localStorage.getItem("oq_me") || null,   // this visitor's own name
 };
 
 const $ = (sel, el = document) => el.querySelector(sel);
@@ -102,8 +102,9 @@ function renderLeaderboard() {
   const body = shown.map((r) => {
     const medal = r.rank === 1 ? "🥇" : r.rank === 2 ? "🥈" : r.rank === 3 ? "🥉" : "";
     const rc = r.rank <= 3 ? `top${r.rank}` : "";
-    const me = r.name === ME ? `<span class="me-badge">YOU</span>` : "";
-    return `<tr data-player="${esc(r.name)}">
+    const isMe = r.name === state.me;
+    const me = isMe ? `<span class="me-badge">YOU</span>` : "";
+    return `<tr class="${isMe ? "is-me" : ""}" data-player="${esc(r.name)}">
       <td class="rank ${rc}">${medal ? `<span class="medal">${medal}</span>` : r.rank}</td>
       <td><span class="pname">${esc(r.name)}</span>${me}</td>
       <td class="hide-sm"><div class="chips">
@@ -165,9 +166,9 @@ function renderPlayerPicker() {
     </div>
     <div class="section-title"><h2>Players</h2><span class="hint">${names.length} members — pick anyone to see every prediction</span></div>
     <div class="card"><table class="board"><tbody>
-      ${state.lbCache.map((r) => `<tr data-player="${esc(r.name)}">
+      ${state.lbCache.map((r) => `<tr class="${r.name === state.me ? "is-me" : ""}" data-player="${esc(r.name)}">
         <td class="rank ${r.rank <= 3 ? "top" + r.rank : ""}">${r.rank}</td>
-        <td><span class="pname">${esc(r.name)}</span>${r.name === ME ? '<span class="me-badge">YOU</span>' : ""}</td>
+        <td><span class="pname">${esc(r.name)}</span>${r.name === state.me ? '<span class="me-badge">YOU</span>' : ""}</td>
         <td class="num"><span class="pts">${r.total}</span></td>
       </tr>`).join("")}
     </tbody></table></div>`;
@@ -234,7 +235,7 @@ function renderPlayer(name) {
       <div class="player-head">
         <div class="avatar">${esc(initials(name))}</div>
         <div class="pi">
-          <h2>${esc(name)} ${name === ME ? '<span class="me-badge">YOU</span>' : ""}</h2>
+          <h2>${esc(name)} ${name === state.me ? '<span class="me-badge">YOU</span>' : ""}</h2>
           <div class="sub">Rank <b style="color:var(--ink)">#${rank}</b> of ${state.predictions.members.length} · ${s.played}/72 matches scored</div>
         </div>
         <div class="score-box"><div class="big">${s.total}</div><div class="of">/ ${MAX_POINTS} pts</div></div>
@@ -322,6 +323,25 @@ function fromHash() {
 }
 
 // ---------- boot ----------
+function setupMePicker() {
+  const sel = $("#me-picker");
+  const pill = $("#pill-me");
+  const names = state.predictions.members.slice().sort((a, b) => a.localeCompare(b));
+  sel.insertAdjacentHTML("beforeend",
+    names.map((n) => `<option value="${esc(n)}">${esc(n)}</option>`).join(""));
+  // a remembered name that's no longer in the pool is dropped
+  if (state.me && !state.predictions.picks[state.me]) state.me = null;
+  sel.value = state.me || "";
+  pill.classList.toggle("set", !!state.me);
+  sel.addEventListener("change", () => {
+    state.me = sel.value || null;
+    if (state.me) localStorage.setItem("oq_me", state.me);
+    else localStorage.removeItem("oq_me");
+    pill.classList.toggle("set", !!state.me);
+    render();
+  });
+}
+
 async function boot() {
   document.querySelectorAll("#tabs button").forEach((b) =>
     b.addEventListener("click", () => go(b.dataset.tab)));
@@ -329,6 +349,7 @@ async function boot() {
 
   await loadStatic();
   await loadResults();
+  setupMePicker();
   fromHash();
   render();
 
