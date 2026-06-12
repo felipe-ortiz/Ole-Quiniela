@@ -1,0 +1,49 @@
+name: Update results
+
+# Pulls live 2026 World Cup group-stage scores into data/results.json and
+# commits when something changed. The site (GitHub Pages) redeploys on that
+# commit, so the leaderboard updates itself. Requires a repository secret
+# FOOTBALL_DATA_TOKEN (free key from https://www.football-data.org/client/register).
+
+on:
+  schedule:
+    # Every 15 minutes across the group stage window (Jun 11–28 UTC).
+    - cron: "*/15 * 11-28 6 *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-results
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch latest scores
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: node scripts/update-results.mjs
+
+      - name: Sanity-check scoring
+        run: node scripts/test-scoring.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet data/results.json; then
+            echo "No result changes."
+            exit 0
+          fi
+          git config user.name  "ole-quiniela-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/results.json
+          git commit -m "Update results $(date -u +'%Y-%m-%dT%H:%MZ')"
+          git push

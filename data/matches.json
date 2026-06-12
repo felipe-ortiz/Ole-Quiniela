@@ -1,0 +1,650 @@
+[
+  {
+    "id": "MEXvRSA",
+    "group": "A",
+    "matchday": 1,
+    "utcDate": "2026-06-11T19:00:00Z",
+    "venue": "Mexico City",
+    "homeCode": "MEX",
+    "awayCode": "RSA"
+  },
+  {
+    "id": "KORvCZE",
+    "group": "A",
+    "matchday": 1,
+    "utcDate": "2026-06-12T02:00:00Z",
+    "venue": "Guadalajara (Zapopan)",
+    "homeCode": "KOR",
+    "awayCode": "CZE"
+  },
+  {
+    "id": "CANvBIH",
+    "group": "B",
+    "matchday": 2,
+    "utcDate": "2026-06-12T19:00:00Z",
+    "venue": "Toronto",
+    "homeCode": "CAN",
+    "awayCode": "BIH"
+  },
+  {
+    "id": "USAvPAR",
+    "group": "D",
+    "matchday": 2,
+    "utcDate": "2026-06-13T01:00:00Z",
+    "venue": "Los Angeles (Inglewood)",
+    "homeCode": "USA",
+    "awayCode": "PAR"
+  },
+  {
+    "id": "QATvSUI",
+    "group": "B",
+    "matchday": 3,
+    "utcDate": "2026-06-13T19:00:00Z",
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "homeCode": "QAT",
+    "awayCode": "SUI"
+  },
+  {
+    "id": "BRAvMAR",
+    "group": "C",
+    "matchday": 3,
+    "utcDate": "2026-06-13T22:00:00Z",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "homeCode": "BRA",
+    "awayCode": "MAR"
+  },
+  {
+    "id": "HAIvSCO",
+    "group": "C",
+    "matchday": 3,
+    "utcDate": "2026-06-14T01:00:00Z",
+    "venue": "Boston (Foxborough)",
+    "homeCode": "HAI",
+    "awayCode": "SCO"
+  },
+  {
+    "id": "AUSvTUR",
+    "group": "D",
+    "matchday": 3,
+    "utcDate": "2026-06-14T04:00:00Z",
+    "venue": "Vancouver",
+    "homeCode": "AUS",
+    "awayCode": "TUR"
+  },
+  {
+    "id": "GERvCUW",
+    "group": "E",
+    "matchday": 4,
+    "utcDate": "2026-06-14T17:00:00Z",
+    "venue": "Houston",
+    "homeCode": "GER",
+    "awayCode": "CUW"
+  },
+  {
+    "id": "NEDvJPN",
+    "group": "F",
+    "matchday": 4,
+    "utcDate": "2026-06-14T20:00:00Z",
+    "venue": "Dallas (Arlington)",
+    "homeCode": "NED",
+    "awayCode": "JPN"
+  },
+  {
+    "id": "CIVvECU",
+    "group": "E",
+    "matchday": 4,
+    "utcDate": "2026-06-14T23:00:00Z",
+    "venue": "Philadelphia",
+    "homeCode": "CIV",
+    "awayCode": "ECU"
+  },
+  {
+    "id": "SWEvTUN",
+    "group": "F",
+    "matchday": 4,
+    "utcDate": "2026-06-15T02:00:00Z",
+    "venue": "Monterrey (Guadalupe)",
+    "homeCode": "SWE",
+    "awayCode": "TUN"
+  },
+  {
+    "id": "ESPvCPV",
+    "group": "H",
+    "matchday": 5,
+    "utcDate": "2026-06-15T16:00:00Z",
+    "venue": "Atlanta",
+    "homeCode": "ESP",
+    "awayCode": "CPV"
+  },
+  {
+    "id": "BELvEGY",
+    "group": "G",
+    "matchday": 5,
+    "utcDate": "2026-06-15T19:00:00Z",
+    "venue": "Seattle",
+    "homeCode": "BEL",
+    "awayCode": "EGY"
+  },
+  {
+    "id": "KSAvURU",
+    "group": "H",
+    "matchday": 5,
+    "utcDate": "2026-06-15T22:00:00Z",
+    "venue": "Miami (Miami Gardens)",
+    "homeCode": "KSA",
+    "awayCode": "URU"
+  },
+  {
+    "id": "IRNvNZL",
+    "group": "G",
+    "matchday": 5,
+    "utcDate": "2026-06-16T01:00:00Z",
+    "venue": "Los Angeles (Inglewood)",
+    "homeCode": "IRN",
+    "awayCode": "NZL"
+  },
+  {
+    "id": "FRAvSEN",
+    "group": "I",
+    "matchday": 6,
+    "utcDate": "2026-06-16T19:00:00Z",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "homeCode": "FRA",
+    "awayCode": "SEN"
+  },
+  {
+    "id": "IRQvNOR",
+    "group": "I",
+    "matchday": 6,
+    "utcDate": "2026-06-16T22:00:00Z",
+    "venue": "Boston (Foxborough)",
+    "homeCode": "IRQ",
+    "awayCode": "NOR"
+  },
+  {
+    "id": "ARGvALG",
+    "group": "J",
+    "matchday": 6,
+    "utcDate": "2026-06-17T01:00:00Z",
+    "venue": "Kansas City",
+    "homeCode": "ARG",
+    "awayCode": "ALG"
+  },
+  {
+    "id": "AUTvJOR",
+    "group": "J",
+    "matchday": 6,
+    "utcDate": "2026-06-17T04:00:00Z",
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "homeCode": "AUT",
+    "awayCode": "JOR"
+  },
+  {
+    "id": "PORvCOD",
+    "group": "K",
+    "matchday": 7,
+    "utcDate": "2026-06-17T17:00:00Z",
+    "venue": "Houston",
+    "homeCode": "POR",
+    "awayCode": "COD"
+  },
+  {
+    "id": "ENGvCRO",
+    "group": "L",
+    "matchday": 7,
+    "utcDate": "2026-06-17T20:00:00Z",
+    "venue": "Dallas (Arlington)",
+    "homeCode": "ENG",
+    "awayCode": "CRO"
+  },
+  {
+    "id": "GHAvPAN",
+    "group": "L",
+    "matchday": 7,
+    "utcDate": "2026-06-17T23:00:00Z",
+    "venue": "Toronto",
+    "homeCode": "GHA",
+    "awayCode": "PAN"
+  },
+  {
+    "id": "UZBvCOL",
+    "group": "K",
+    "matchday": 7,
+    "utcDate": "2026-06-18T02:00:00Z",
+    "venue": "Mexico City",
+    "homeCode": "UZB",
+    "awayCode": "COL"
+  },
+  {
+    "id": "CZEvRSA",
+    "group": "A",
+    "matchday": 8,
+    "utcDate": "2026-06-18T16:00:00Z",
+    "venue": "Atlanta",
+    "homeCode": "CZE",
+    "awayCode": "RSA"
+  },
+  {
+    "id": "SUIvBIH",
+    "group": "B",
+    "matchday": 8,
+    "utcDate": "2026-06-18T19:00:00Z",
+    "venue": "Los Angeles (Inglewood)",
+    "homeCode": "SUI",
+    "awayCode": "BIH"
+  },
+  {
+    "id": "CANvQAT",
+    "group": "B",
+    "matchday": 8,
+    "utcDate": "2026-06-18T22:00:00Z",
+    "venue": "Vancouver",
+    "homeCode": "CAN",
+    "awayCode": "QAT"
+  },
+  {
+    "id": "MEXvKOR",
+    "group": "A",
+    "matchday": 8,
+    "utcDate": "2026-06-19T01:00:00Z",
+    "venue": "Guadalajara (Zapopan)",
+    "homeCode": "MEX",
+    "awayCode": "KOR"
+  },
+  {
+    "id": "USAvAUS",
+    "group": "D",
+    "matchday": 9,
+    "utcDate": "2026-06-19T19:00:00Z",
+    "venue": "Seattle",
+    "homeCode": "USA",
+    "awayCode": "AUS"
+  },
+  {
+    "id": "SCOvMAR",
+    "group": "C",
+    "matchday": 9,
+    "utcDate": "2026-06-19T22:00:00Z",
+    "venue": "Boston (Foxborough)",
+    "homeCode": "SCO",
+    "awayCode": "MAR"
+  },
+  {
+    "id": "BRAvHAI",
+    "group": "C",
+    "matchday": 9,
+    "utcDate": "2026-06-20T00:30:00Z",
+    "venue": "Philadelphia",
+    "homeCode": "BRA",
+    "awayCode": "HAI"
+  },
+  {
+    "id": "TURvPAR",
+    "group": "D",
+    "matchday": 9,
+    "utcDate": "2026-06-20T03:00:00Z",
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "homeCode": "TUR",
+    "awayCode": "PAR"
+  },
+  {
+    "id": "NEDvSWE",
+    "group": "F",
+    "matchday": 10,
+    "utcDate": "2026-06-20T17:00:00Z",
+    "venue": "Houston",
+    "homeCode": "NED",
+    "awayCode": "SWE"
+  },
+  {
+    "id": "GERvCIV",
+    "group": "E",
+    "matchday": 10,
+    "utcDate": "2026-06-20T20:00:00Z",
+    "venue": "Toronto",
+    "homeCode": "GER",
+    "awayCode": "CIV"
+  },
+  {
+    "id": "ECUvCUW",
+    "group": "E",
+    "matchday": 10,
+    "utcDate": "2026-06-21T00:00:00Z",
+    "venue": "Kansas City",
+    "homeCode": "ECU",
+    "awayCode": "CUW"
+  },
+  {
+    "id": "TUNvJPN",
+    "group": "F",
+    "matchday": 10,
+    "utcDate": "2026-06-21T04:00:00Z",
+    "venue": "Monterrey (Guadalupe)",
+    "homeCode": "TUN",
+    "awayCode": "JPN"
+  },
+  {
+    "id": "ESPvKSA",
+    "group": "H",
+    "matchday": 11,
+    "utcDate": "2026-06-21T16:00:00Z",
+    "venue": "Atlanta",
+    "homeCode": "ESP",
+    "awayCode": "KSA"
+  },
+  {
+    "id": "BELvIRN",
+    "group": "G",
+    "matchday": 11,
+    "utcDate": "2026-06-21T19:00:00Z",
+    "venue": "Los Angeles (Inglewood)",
+    "homeCode": "BEL",
+    "awayCode": "IRN"
+  },
+  {
+    "id": "URUvCPV",
+    "group": "H",
+    "matchday": 11,
+    "utcDate": "2026-06-21T22:00:00Z",
+    "venue": "Miami (Miami Gardens)",
+    "homeCode": "URU",
+    "awayCode": "CPV"
+  },
+  {
+    "id": "NZLvEGY",
+    "group": "G",
+    "matchday": 11,
+    "utcDate": "2026-06-22T01:00:00Z",
+    "venue": "Vancouver",
+    "homeCode": "NZL",
+    "awayCode": "EGY"
+  },
+  {
+    "id": "ARGvAUT",
+    "group": "J",
+    "matchday": 12,
+    "utcDate": "2026-06-22T17:00:00Z",
+    "venue": "Dallas (Arlington)",
+    "homeCode": "ARG",
+    "awayCode": "AUT"
+  },
+  {
+    "id": "FRAvIRQ",
+    "group": "I",
+    "matchday": 12,
+    "utcDate": "2026-06-22T21:00:00Z",
+    "venue": "Philadelphia",
+    "homeCode": "FRA",
+    "awayCode": "IRQ"
+  },
+  {
+    "id": "NORvSEN",
+    "group": "I",
+    "matchday": 12,
+    "utcDate": "2026-06-23T00:00:00Z",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "homeCode": "NOR",
+    "awayCode": "SEN"
+  },
+  {
+    "id": "JORvALG",
+    "group": "J",
+    "matchday": 12,
+    "utcDate": "2026-06-23T03:00:00Z",
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "homeCode": "JOR",
+    "awayCode": "ALG"
+  },
+  {
+    "id": "PORvUZB",
+    "group": "K",
+    "matchday": 13,
+    "utcDate": "2026-06-23T17:00:00Z",
+    "venue": "Houston",
+    "homeCode": "POR",
+    "awayCode": "UZB"
+  },
+  {
+    "id": "ENGvGHA",
+    "group": "L",
+    "matchday": 13,
+    "utcDate": "2026-06-23T20:00:00Z",
+    "venue": "Boston (Foxborough)",
+    "homeCode": "ENG",
+    "awayCode": "GHA"
+  },
+  {
+    "id": "PANvCRO",
+    "group": "L",
+    "matchday": 13,
+    "utcDate": "2026-06-23T23:00:00Z",
+    "venue": "Toronto",
+    "homeCode": "PAN",
+    "awayCode": "CRO"
+  },
+  {
+    "id": "COLvCOD",
+    "group": "K",
+    "matchday": 13,
+    "utcDate": "2026-06-24T02:00:00Z",
+    "venue": "Guadalajara (Zapopan)",
+    "homeCode": "COL",
+    "awayCode": "COD"
+  },
+  {
+    "id": "SUIvCAN",
+    "group": "B",
+    "matchday": 14,
+    "utcDate": "2026-06-24T19:00:00Z",
+    "venue": "Vancouver",
+    "homeCode": "SUI",
+    "awayCode": "CAN"
+  },
+  {
+    "id": "BIHvQAT",
+    "group": "B",
+    "matchday": 14,
+    "utcDate": "2026-06-24T19:00:00Z",
+    "venue": "Seattle",
+    "homeCode": "BIH",
+    "awayCode": "QAT"
+  },
+  {
+    "id": "SCOvBRA",
+    "group": "C",
+    "matchday": 14,
+    "utcDate": "2026-06-24T22:00:00Z",
+    "venue": "Miami (Miami Gardens)",
+    "homeCode": "SCO",
+    "awayCode": "BRA"
+  },
+  {
+    "id": "MARvHAI",
+    "group": "C",
+    "matchday": 14,
+    "utcDate": "2026-06-24T22:00:00Z",
+    "venue": "Atlanta",
+    "homeCode": "MAR",
+    "awayCode": "HAI"
+  },
+  {
+    "id": "CZEvMEX",
+    "group": "A",
+    "matchday": 14,
+    "utcDate": "2026-06-25T01:00:00Z",
+    "venue": "Mexico City",
+    "homeCode": "CZE",
+    "awayCode": "MEX"
+  },
+  {
+    "id": "RSAvKOR",
+    "group": "A",
+    "matchday": 14,
+    "utcDate": "2026-06-25T01:00:00Z",
+    "venue": "Monterrey (Guadalupe)",
+    "homeCode": "RSA",
+    "awayCode": "KOR"
+  },
+  {
+    "id": "CUWvCIV",
+    "group": "E",
+    "matchday": 15,
+    "utcDate": "2026-06-25T20:00:00Z",
+    "venue": "Philadelphia",
+    "homeCode": "CUW",
+    "awayCode": "CIV"
+  },
+  {
+    "id": "ECUvGER",
+    "group": "E",
+    "matchday": 15,
+    "utcDate": "2026-06-25T20:00:00Z",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "homeCode": "ECU",
+    "awayCode": "GER"
+  },
+  {
+    "id": "JPNvSWE",
+    "group": "F",
+    "matchday": 15,
+    "utcDate": "2026-06-25T23:00:00Z",
+    "venue": "Dallas (Arlington)",
+    "homeCode": "JPN",
+    "awayCode": "SWE"
+  },
+  {
+    "id": "TUNvNED",
+    "group": "F",
+    "matchday": 15,
+    "utcDate": "2026-06-25T23:00:00Z",
+    "venue": "Kansas City",
+    "homeCode": "TUN",
+    "awayCode": "NED"
+  },
+  {
+    "id": "TURvUSA",
+    "group": "D",
+    "matchday": 15,
+    "utcDate": "2026-06-26T02:00:00Z",
+    "venue": "Los Angeles (Inglewood)",
+    "homeCode": "TUR",
+    "awayCode": "USA"
+  },
+  {
+    "id": "PARvAUS",
+    "group": "D",
+    "matchday": 15,
+    "utcDate": "2026-06-26T02:00:00Z",
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "homeCode": "PAR",
+    "awayCode": "AUS"
+  },
+  {
+    "id": "NORvFRA",
+    "group": "I",
+    "matchday": 16,
+    "utcDate": "2026-06-26T19:00:00Z",
+    "venue": "Boston (Foxborough)",
+    "homeCode": "NOR",
+    "awayCode": "FRA"
+  },
+  {
+    "id": "SENvIRQ",
+    "group": "I",
+    "matchday": 16,
+    "utcDate": "2026-06-26T19:00:00Z",
+    "venue": "Toronto",
+    "homeCode": "SEN",
+    "awayCode": "IRQ"
+  },
+  {
+    "id": "CPVvKSA",
+    "group": "H",
+    "matchday": 16,
+    "utcDate": "2026-06-27T00:00:00Z",
+    "venue": "Houston",
+    "homeCode": "CPV",
+    "awayCode": "KSA"
+  },
+  {
+    "id": "URUvESP",
+    "group": "H",
+    "matchday": 16,
+    "utcDate": "2026-06-27T00:00:00Z",
+    "venue": "Guadalajara (Zapopan)",
+    "homeCode": "URU",
+    "awayCode": "ESP"
+  },
+  {
+    "id": "EGYvIRN",
+    "group": "G",
+    "matchday": 16,
+    "utcDate": "2026-06-27T03:00:00Z",
+    "venue": "Seattle",
+    "homeCode": "EGY",
+    "awayCode": "IRN"
+  },
+  {
+    "id": "NZLvBEL",
+    "group": "G",
+    "matchday": 16,
+    "utcDate": "2026-06-27T03:00:00Z",
+    "venue": "Vancouver",
+    "homeCode": "NZL",
+    "awayCode": "BEL"
+  },
+  {
+    "id": "PANvENG",
+    "group": "L",
+    "matchday": 17,
+    "utcDate": "2026-06-27T21:00:00Z",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "homeCode": "PAN",
+    "awayCode": "ENG"
+  },
+  {
+    "id": "CROvGHA",
+    "group": "L",
+    "matchday": 17,
+    "utcDate": "2026-06-27T21:00:00Z",
+    "venue": "Philadelphia",
+    "homeCode": "CRO",
+    "awayCode": "GHA"
+  },
+  {
+    "id": "COLvPOR",
+    "group": "K",
+    "matchday": 17,
+    "utcDate": "2026-06-27T23:30:00Z",
+    "venue": "Miami (Miami Gardens)",
+    "homeCode": "COL",
+    "awayCode": "POR"
+  },
+  {
+    "id": "CODvUZB",
+    "group": "K",
+    "matchday": 17,
+    "utcDate": "2026-06-27T23:30:00Z",
+    "venue": "Atlanta",
+    "homeCode": "COD",
+    "awayCode": "UZB"
+  },
+  {
+    "id": "ALGvAUT",
+    "group": "J",
+    "matchday": 17,
+    "utcDate": "2026-06-28T02:00:00Z",
+    "venue": "Kansas City",
+    "homeCode": "ALG",
+    "awayCode": "AUT"
+  },
+  {
+    "id": "JORvARG",
+    "group": "J",
+    "matchday": 17,
+    "utcDate": "2026-06-28T02:00:00Z",
+    "venue": "Dallas (Arlington)",
+    "homeCode": "JOR",
+    "awayCode": "ARG"
+  }
+]
