@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T20:14:35.215Z",
+  "updated": "2026-06-12T21:14:40.189Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -15,9 +15,9 @@
       "status": "FINISHED"
     },
     "CANvBIH": {
-      "home": 0,
+      "home": 1,
       "away": 1,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
     "USAvPAR": null,
     "QATvSUI": null,
