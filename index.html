@@ -3,42 +3,43 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#ffffff" />
 <title>Olé Quiniela 2026 — Live Standings</title>
 <meta name="description" content="Live leaderboard and predictions for the 2026 World Cup Olé Quiniela." />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>" />
 <style>
+  /* Olé The Brand palette: monochrome black on white, Helvetica Neue.
+     Point colours (green/amber/red/blue) are the official Quiniela legend,
+     retuned for a light background. */
   :root {
-    --bg: #0a0f1e;
-    --bg-2: #0d1430;
-    --panel: #121a35;
-    --panel-2: #182245;
-    --line: #243064;
-    --line-soft: #1b2548;
-    --ink: #eef1fb;
-    --muted: #98a2c7;
-    --muted-2: #6b76a0;
-    --accent: #18c98f;     /* pitch green */
-    --accent-2: #5b8cff;
-    --gold: #ffd23f;
-    --silver: #cfd8ee;
-    --bronze: #e0a370;
-    --hit3: #18c98f;       /* exact score  (green) */
-    --hit1: #f4c150;       /* correct result (yellow) */
-    --miss: #ef5e6b;       /* wrong (red) */
-    --bonus: #5b8cff;      /* bonus (blue) */
-    --pending: #2a3463;
+    --bg: #f6f5f1;         /* warm off-white page */
+    --bg-2: #ffffff;
+    --panel: #ffffff;      /* cards */
+    --panel-2: #f1f0ea;    /* secondary fills */
+    --line: #e3e2db;
+    --line-soft: #edece5;
+    --ink: #111111;        /* brand black */
+    --muted: #6b6b62;
+    --muted-2: #9a9a90;
+    --accent: #111111;     /* brand black = primary accent */
+    --accent-2: #3d3d38;   /* charcoal */
+    --gold: #b8860b;
+    --silver: #8a909c;
+    --bronze: #a86a3a;
+    --hit3: #1f8f57;       /* exact score  (green) */
+    --hit1: #ad7910;       /* correct result (amber) */
+    --miss: #cf3d47;       /* wrong (red) */
+    --bonus: #2563d6;      /* bonus (blue) */
+    --pending: #eae8e1;
     --radius: 14px;
-    --shadow: 0 8px 30px rgba(0,0,0,.35);
+    --shadow: 0 1px 2px rgba(17,17,17,.04), 0 10px 28px rgba(17,17,17,.06);
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    background:
-      radial-gradient(1200px 600px at 80% -10%, #14224d 0%, transparent 60%),
-      radial-gradient(900px 500px at -10% 10%, #15303f 0%, transparent 55%),
-      var(--bg);
+    background: var(--bg);
     color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     min-height: 100vh;
   }
@@ -48,20 +49,20 @@
   /* ---------- header ---------- */
   header {
     position: sticky; top: 0; z-index: 20;
-    background: linear-gradient(180deg, rgba(10,15,30,.96), rgba(10,15,30,.82));
+    background: rgba(255,255,255,.92);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--line);
   }
   .head-inner { max-width: 1080px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
   .brand { display: flex; align-items: center; gap: 10px; }
-  .brand .logo { font-size: 26px; filter: drop-shadow(0 2px 6px rgba(0,0,0,.4)); }
-  .brand h1 { margin: 0; font-size: 19px; letter-spacing: .3px; font-weight: 800; }
-  .brand .tag { color: var(--muted); font-weight: 500; font-size: 12.5px; margin-top: 1px; }
+  .brand .logo { font-size: 26px; }
+  .brand h1 { margin: 0; font-size: 19px; letter-spacing: -.2px; font-weight: 800; text-transform: uppercase; }
+  .brand .tag { color: var(--muted); font-weight: 500; font-size: 12.5px; margin-top: 1px; letter-spacing: .2px; }
   .head-right { margin-left: auto; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-  .pill { display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; border-radius: 999px; font-size: 12px; background: var(--panel); border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  .pill { display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; border-radius: 999px; font-size: 12px; background: var(--panel-2); border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
   .pill b { color: var(--ink); font-weight: 700; }
-  .live-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 0 rgba(24,201,143,.6); animation: pulse 2s infinite; }
-  @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(24,201,143,.5)} 70%{box-shadow:0 0 0 8px rgba(24,201,143,0)} 100%{box-shadow:0 0 0 0 rgba(24,201,143,0)} }
+  .live-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink); box-shadow: 0 0 0 0 rgba(17,17,17,.4); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(17,17,17,.32)} 70%{box-shadow:0 0 0 7px rgba(17,17,17,0)} 100%{box-shadow:0 0 0 0 rgba(17,17,17,0)} }
 
   /* ---------- tabs ---------- */
   nav.tabs { display: flex; gap: 4px; max-width: 1080px; margin: 0 auto; padding: 0 12px; }
@@ -71,10 +72,10 @@
     border-bottom: 2px solid transparent; transition: color .15s, border-color .15s;
   }
   nav.tabs button:hover { color: var(--ink); }
-  nav.tabs button.active { color: var(--ink); border-bottom-color: var(--accent); }
+  nav.tabs button.active { color: var(--ink); border-bottom-color: var(--ink); }
 
   .progress { height: 4px; background: var(--line-soft); border-radius: 999px; overflow: hidden; margin: 14px 0 2px; }
-  .progress > i { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); width: 0; transition: width .6s ease; }
+  .progress > i { display: block; height: 100%; background: linear-gradient(90deg, var(--ink), var(--accent-2)); width: 0; transition: width .6s ease; }
 
   /* ---------- search ---------- */
   .search { position: relative; margin: 16px 0; }
@@ -82,7 +83,7 @@
     width: 100%; padding: 13px 14px 13px 42px; font-size: 15px; color: var(--ink);
     background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); outline: none;
   }
-  .search input:focus { border-color: var(--accent-2); }
+  .search input:focus { border-color: var(--ink); }
   .search .ic { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); }
 
   /* ---------- cards / table ---------- */
@@ -106,27 +107,27 @@
   .mini { color: var(--muted); font-size: 12px; }
   .chips { display: flex; gap: 6px; flex-wrap: wrap; }
   .chip { display: inline-flex; align-items: center; gap: 5px; padding: 2px 8px; border-radius: 999px; font-size: 11.5px; font-weight: 700; }
-  .chip.g { background: rgba(24,201,143,.14); color: var(--hit3); }
-  .chip.y { background: rgba(244,193,80,.14); color: var(--hit1); }
-  .chip.b { background: rgba(91,140,255,.16); color: var(--bonus); }
+  .chip.g { background: rgba(31,143,87,.12); color: var(--hit3); }
+  .chip.y { background: rgba(173,121,16,.14); color: var(--hit1); }
+  .chip.b { background: rgba(37,99,214,.12); color: var(--bonus); }
 
-  .me-badge { font-size: 10px; font-weight: 800; color: var(--accent); border: 1px solid rgba(24,201,143,.4); border-radius: 6px; padding: 1px 5px; margin-left: 6px; vertical-align: middle; }
+  .me-badge { font-size: 10px; font-weight: 800; color: #fff; background: var(--ink); border-radius: 5px; padding: 1px 6px; margin-left: 6px; vertical-align: middle; letter-spacing: .3px; }
   .pill-me { gap: 6px; cursor: pointer; }
-  .pill-me.set { border-color: rgba(24,201,143,.45); color: var(--ink); }
+  .pill-me.set { border-color: var(--ink); color: var(--ink); }
   .pill-me select {
     appearance: none; -webkit-appearance: none; background: transparent; border: 0;
     color: inherit; font: inherit; font-size: 12px; font-weight: 700; outline: none; cursor: pointer;
     max-width: 150px; padding-right: 15px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2398a2c7' fill='none' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%239a9a90' fill='none' stroke-width='1.5'/%3E%3C/svg%3E");
     background-repeat: no-repeat; background-position: right center;
   }
-  .pill-me select option { color: #0a0f1e; }
-  table.board tbody tr.is-me { background: rgba(24,201,143,.10); }
-  table.board tbody tr.is-me:hover { background: rgba(24,201,143,.16); }
+  .pill-me select option { color: #111111; }
+  table.board tbody tr.is-me { background: #f0eee6; box-shadow: inset 3px 0 0 var(--ink); }
+  table.board tbody tr.is-me:hover { background: #eae7dd; }
 
   /* ---------- player page ---------- */
   .player-head { display: flex; align-items: center; gap: 16px; padding: 18px; flex-wrap: wrap; }
-  .player-head .avatar { width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 22px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #06210f; }
+  .player-head .avatar { width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 22px; background: var(--ink); color: #fff; letter-spacing: .5px; }
   .player-head .pi h2 { margin: 0; font-size: 20px; }
   .player-head .pi .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
   .player-head .score-box { margin-left: auto; text-align: right; }
@@ -143,8 +144,8 @@
   .bonus .bl { color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: .5px; }
   .bonus .bv { font-weight: 700; font-size: 15px; margin-top: 2px; }
   .bonus .state { margin-left: auto; font-size: 12px; font-weight: 800; padding: 3px 9px; border-radius: 999px; }
-  .state.ok { background: rgba(24,201,143,.16); color: var(--hit3); }
-  .state.no { background: rgba(239,94,107,.14); color: var(--miss); }
+  .state.ok { background: rgba(31,143,87,.15); color: var(--hit3); }
+  .state.no { background: rgba(207,61,71,.13); color: var(--miss); }
   .state.pend { background: var(--pending); color: var(--muted); }
 
   .md-group { margin-top: 18px; }
@@ -166,9 +167,9 @@
   .pick .ppick .lab { color: var(--muted-2); font-size: 10.5px; text-transform: uppercase; letter-spacing: .4px; }
   .pick .actual { text-align: right; font-size: 12.5px; }
   .pick .pp { min-width: 30px; text-align: center; font-weight: 800; font-size: 14px; font-variant-numeric: tabular-nums; border-radius: 8px; padding: 4px 0; }
-  .pp.hit3 { background: rgba(24,201,143,.16); color: var(--hit3); }
-  .pp.hit1 { background: rgba(244,193,80,.16); color: var(--hit1); }
-  .pp.miss { background: rgba(239,94,107,.14); color: var(--miss); }
+  .pp.hit3 { background: rgba(31,143,87,.15); color: var(--hit3); }
+  .pp.hit1 { background: rgba(173,121,16,.16); color: var(--hit1); }
+  .pp.miss { background: rgba(207,61,71,.13); color: var(--miss); }
   .pp.pending { background: var(--pending); color: var(--muted); }
   .flag { font-size: 16px; line-height: 1; }
   .sc { font-variant-numeric: tabular-nums; font-weight: 700; }
@@ -180,8 +181,8 @@
   .fx .pair { display: flex; align-items: center; gap: 8px; font-size: 14px; }
   .fx .res { font-weight: 800; font-variant-numeric: tabular-nums; font-size: 15px; }
   .fx .statustag { font-size: 10px; font-weight: 800; padding: 2px 7px; border-radius: 999px; text-transform: uppercase; letter-spacing: .4px; }
-  .statustag.LIVE { background: rgba(239,94,107,.16); color: var(--miss); }
-  .statustag.FINISHED { background: rgba(24,201,143,.14); color: var(--hit3); }
+  .statustag.LIVE { background: rgba(207,61,71,.14); color: var(--miss); }
+  .statustag.FINISHED { background: rgba(31,143,87,.13); color: var(--hit3); }
   .statustag.SCHEDULED { background: var(--pending); color: var(--muted); }
 
   .empty { padding: 40px 18px; text-align: center; color: var(--muted); }
@@ -205,7 +206,7 @@
     <div class="brand">
       <span class="logo">⚽</span>
       <div>
-        <h1>Olé Quiniela <span style="color:var(--accent)">2026</span></h1>
+        <h1>Olé Quiniela <span style="color:var(--muted)">2026</span></h1>
         <div class="tag">World Cup · Group Stage Predictions</div>
       </div>
     </div>
