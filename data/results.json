@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T21:14:40.189Z",
+  "updated": "2026-06-13T05:05:43.431Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -19,7 +19,11 @@
       "away": 1,
       "status": "FINISHED"
     },
-    "USAvPAR": null,
+    "USAvPAR": {
+      "home": 4,
+      "away": 1,
+      "status": "FINISHED"
+    },
     "QATvSUI": null,
     "BRAvMAR": null,
     "HAIvSCO": null,
