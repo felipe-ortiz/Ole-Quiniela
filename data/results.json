@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T05:05:43.431Z",
+  "updated": "2026-06-13T19:56:19.572Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -24,7 +24,11 @@
       "away": 1,
       "status": "FINISHED"
     },
-    "QATvSUI": null,
+    "QATvSUI": {
+      "home": 0,
+      "away": 1,
+      "status": "LIVE"
+    },
     "BRAvMAR": null,
     "HAIvSCO": null,
     "AUSvTUR": null,
