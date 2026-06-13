@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T22:38:31.638Z",
+  "updated": "2026-06-13T23:49:00.017Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -30,7 +30,7 @@
       "status": "FINISHED"
     },
     "BRAvMAR": {
-      "home": 0,
+      "home": 1,
       "away": 1,
       "status": "LIVE"
     },
