@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T23:49:00.017Z",
+  "updated": "2026-06-14T04:42:27.893Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -32,10 +32,18 @@
     "BRAvMAR": {
       "home": 1,
       "away": 1,
+      "status": "FINISHED"
+    },
+    "HAIvSCO": {
+      "home": 0,
+      "away": 1,
+      "status": "FINISHED"
+    },
+    "AUSvTUR": {
+      "home": 1,
+      "away": 0,
       "status": "LIVE"
     },
-    "HAIvSCO": null,
-    "AUSvTUR": null,
     "GERvCUW": null,
     "NEDvJPN": null,
     "CIVvECU": null,
