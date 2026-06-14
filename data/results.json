@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T04:42:27.893Z",
+  "updated": "2026-06-14T08:35:11.028Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -40,9 +40,9 @@
       "status": "FINISHED"
     },
     "AUSvTUR": {
-      "home": 1,
+      "home": 2,
       "away": 0,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
     "GERvCUW": null,
     "NEDvJPN": null,
