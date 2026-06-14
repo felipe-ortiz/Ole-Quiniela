@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T08:35:11.028Z",
+  "updated": "2026-06-14T18:19:13.879Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -44,7 +44,11 @@
       "away": 0,
       "status": "FINISHED"
     },
-    "GERvCUW": null,
+    "GERvCUW": {
+      "home": 4,
+      "away": 1,
+      "status": "LIVE"
+    },
     "NEDvJPN": null,
     "CIVvECU": null,
     "SWEvTUN": null,
