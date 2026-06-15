@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T22:53:21.203Z",
+  "updated": "2026-06-15T05:39:38.122Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -54,8 +54,16 @@
       "away": 2,
       "status": "FINISHED"
     },
-    "CIVvECU": null,
-    "SWEvTUN": null,
+    "CIVvECU": {
+      "home": 1,
+      "away": 0,
+      "status": "FINISHED"
+    },
+    "SWEvTUN": {
+      "home": 5,
+      "away": 1,
+      "status": "FINISHED"
+    },
     "ESPvCPV": null,
     "BELvEGY": null,
     "KSAvURU": null,
