@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T16:33:15.286Z",
+  "updated": "2026-06-15T20:16:45.485Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -67,9 +67,13 @@
     "ESPvCPV": {
       "home": 0,
       "away": 0,
+      "status": "FINISHED"
+    },
+    "BELvEGY": {
+      "home": 0,
+      "away": 1,
       "status": "LIVE"
     },
-    "BELvEGY": null,
     "KSAvURU": null,
     "IRNvNZL": null,
     "FRAvSEN": null,
