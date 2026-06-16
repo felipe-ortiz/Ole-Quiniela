@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T00:17:44.693Z",
+  "updated": "2026-06-16T09:34:35.869Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -79,7 +79,11 @@
       "away": 1,
       "status": "FINISHED"
     },
-    "IRNvNZL": null,
+    "IRNvNZL": {
+      "home": 2,
+      "away": 2,
+      "status": "FINISHED"
+    },
     "FRAvSEN": null,
     "IRQvNOR": null,
     "ARGvALG": null,
