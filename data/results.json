@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T09:34:35.869Z",
+  "updated": "2026-06-16T21:13:53.548Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -84,7 +84,11 @@
       "away": 2,
       "status": "FINISHED"
     },
-    "FRAvSEN": null,
+    "FRAvSEN": {
+      "home": 3,
+      "away": 1,
+      "status": "FINISHED"
+    },
     "IRQvNOR": null,
     "ARGvALG": null,
     "AUTvJOR": null,
