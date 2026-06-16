@@ -7,8 +7,9 @@ name: Update results
 
 on:
   schedule:
-    # Every 15 minutes across the group stage window (Jun 11–28 UTC).
-    - cron: "*/15 * 11-28 6 *"
+    # Every 5 minutes across the group stage window (Jun 11–28 UTC).
+    # football-data.org free tier allows 10 req/min, so this is well within limits.
+    - cron: "*/5 * 11-28 6 *"
   workflow_dispatch: {}
 
 permissions:

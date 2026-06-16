@@ -3,7 +3,7 @@
 // following along sees standings update without reloading.
 import { leaderboard, scoreMember, MAX_POINTS, resultOf } from "./scoring.js";
 
-const REFRESH_MS = 90_000;            // poll results.json every 90s
+const REFRESH_MS = 60_000;            // poll results.json every 60s
 
 const state = {
   teams: [], byCode: {}, matches: [], byId: {},
