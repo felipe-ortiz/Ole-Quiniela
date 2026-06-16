@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T21:13:53.548Z",
+  "updated": "2026-06-16T23:07:46.953Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -89,7 +89,11 @@
       "away": 1,
       "status": "FINISHED"
     },
-    "IRQvNOR": null,
+    "IRQvNOR": {
+      "home": 1,
+      "away": 2,
+      "status": "LIVE"
+    },
     "ARGvALG": null,
     "AUTvJOR": null,
     "PORvCOD": null,
