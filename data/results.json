@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T22:34:51.404Z",
+  "updated": "2026-06-16T00:17:44.693Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -75,9 +75,9 @@
       "status": "FINISHED"
     },
     "KSAvURU": {
-      "home": 0,
-      "away": 0,
-      "status": "LIVE"
+      "home": 1,
+      "away": 1,
+      "status": "FINISHED"
     },
     "IRNvNZL": null,
     "FRAvSEN": null,
