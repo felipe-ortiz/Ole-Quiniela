@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T17:33:08.856Z",
+  "updated": "2026-06-17T19:38:43.697Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -106,8 +106,8 @@
     },
     "PORvCOD": {
       "home": 1,
-      "away": 0,
-      "status": "LIVE"
+      "away": 1,
+      "status": "FINISHED"
     },
     "ENGvCRO": null,
     "GHAvPAN": null,
