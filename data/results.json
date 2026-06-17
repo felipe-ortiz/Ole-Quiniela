@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T01:39:29.211Z",
+  "updated": "2026-06-17T06:49:26.896Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -95,11 +95,15 @@
       "status": "FINISHED"
     },
     "ARGvALG": {
-      "home": 1,
+      "home": 3,
       "away": 0,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
-    "AUTvJOR": null,
+    "AUTvJOR": {
+      "home": 3,
+      "away": 1,
+      "status": "FINISHED"
+    },
     "PORvCOD": null,
     "ENGvCRO": null,
     "GHAvPAN": null,
