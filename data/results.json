@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T21:32:58.120Z",
+  "updated": "2026-06-17T23:03:52.450Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -110,9 +110,9 @@
       "status": "FINISHED"
     },
     "ENGvCRO": {
-      "home": 3,
+      "home": 4,
       "away": 2,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
     "GHAvPAN": null,
     "UZBvCOL": null,
