@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T00:24:21.319Z",
+  "updated": "2026-06-18T05:11:40.650Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -115,11 +115,15 @@
       "status": "FINISHED"
     },
     "GHAvPAN": {
-      "home": 0,
+      "home": 1,
       "away": 0,
       "status": "LIVE"
     },
-    "UZBvCOL": null,
+    "UZBvCOL": {
+      "home": 1,
+      "away": 3,
+      "status": "FINISHED"
+    },
     "CZEvRSA": null,
     "SUIvBIH": null,
     "CANvQAT": null,
