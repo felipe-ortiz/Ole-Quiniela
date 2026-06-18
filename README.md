@@ -76,6 +76,32 @@ overwrite it:
 "matches": { "MEXvRSA": { "home": 2, "away": 0, "status": "FINISHED" } }
 ```
 
+### Faster live updates (optional but recommended)
+
+The schedule is set to run every 5 min during **9 AM–10 PM Pacific**, but
+**GitHub's built-in cron is best-effort and heavily throttled** — in practice it
+only fires every 1–2 hours under load, so scores can lag badly during a match.
+
+To get genuinely fast (~1–3 min) updates, trigger the workflow from a free
+external pinger instead of relying on GitHub's scheduler:
+
+1. Create a **fine-grained Personal Access Token** (GitHub → Settings →
+   Developer settings → Fine-grained tokens) scoped to the `Ole-Quiniela` repo
+   with **Actions: Read and write**. Copy it.
+2. Create a free job at **[cron-job.org](https://cron-job.org)** (or any cron
+   service):
+   - **URL** `https://api.github.com/repos/felipe-ortiz/Ole-Quiniela/actions/workflows/update-results.yml/dispatches`
+   - **Method** `POST`
+   - **Headers** `Accept: application/vnd.github+json` ·
+     `Authorization: Bearer <YOUR_TOKEN>` · `X-GitHub-Api-Version: 2022-11-28`
+   - **Body** `{"ref":"main"}`
+   - **Schedule** every 2–3 min, 9 AM–10 PM Pacific
+3. Each ping runs the same job immediately (it still respects `overrides` and
+   only commits on a real change). The repo is public, so Actions minutes are
+   free.
+
+This bypasses GitHub's flaky scheduler; the cron above stays as a backup.
+
 ---
 
 ## Data & rebuilding

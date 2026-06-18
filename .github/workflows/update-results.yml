@@ -7,9 +7,13 @@ name: Update results
 
 on:
   schedule:
-    # Every 5 minutes across the group stage window (Jun 11–28 UTC).
-    # football-data.org free tier allows 10 req/min, so this is well within limits.
-    - cron: "*/5 * 11-28 6 *"
+    # Every 5 min during the active viewing window: 9:00 AM–10:00 PM Pacific
+    # (PDT = UTC-7 in June  ->  16:00–04:59 UTC), days 11–28 June.
+    # NOTE: GitHub's built-in cron is best-effort and is heavily throttled under
+    # load (observed: runs only every ~1-2 h, not every 5 min). For genuinely
+    # fast updates, trigger this workflow via workflow_dispatch from an external
+    # pinger (e.g. cron-job.org) — see README "Faster live updates".
+    - cron: "*/5 16-23,0-4 11-28 6 *"
   workflow_dispatch: {}
 
 permissions:
