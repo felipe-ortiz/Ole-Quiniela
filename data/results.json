@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T18:33:49.281Z",
+  "updated": "2026-06-18T21:06:39.145Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -129,7 +129,11 @@
       "away": 1,
       "status": "FINISHED"
     },
-    "SUIvBIH": null,
+    "SUIvBIH": {
+      "home": 4,
+      "away": 1,
+      "status": "FINISHED"
+    },
     "CANvQAT": null,
     "MEXvKOR": null,
     "USAvAUS": null,
