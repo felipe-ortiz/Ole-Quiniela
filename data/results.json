@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T05:11:40.650Z",
+  "updated": "2026-06-18T09:45:04.136Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -117,7 +117,7 @@
     "GHAvPAN": {
       "home": 1,
       "away": 0,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
     "UZBvCOL": {
       "home": 1,
