@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T16:06:40.015Z",
+  "updated": "2026-06-18T18:33:49.281Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -125,9 +125,9 @@
       "status": "FINISHED"
     },
     "CZEvRSA": {
-      "home": 0,
-      "away": 0,
-      "status": "LIVE"
+      "home": 1,
+      "away": 1,
+      "status": "FINISHED"
     },
     "SUIvBIH": null,
     "CANvQAT": null,
