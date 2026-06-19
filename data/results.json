@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T01:51:16.747Z",
+  "updated": "2026-06-19T06:55:41.874Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -140,9 +140,9 @@
       "status": "FINISHED"
     },
     "MEXvKOR": {
-      "home": 0,
+      "home": 1,
       "away": 0,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
     "USAvAUS": null,
     "SCOvMAR": null,
