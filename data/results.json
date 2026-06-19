@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T21:14:55.645Z",
+  "updated": "2026-06-19T22:15:10.213Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -149,7 +149,11 @@
       "away": 0,
       "status": "FINISHED"
     },
-    "SCOvMAR": null,
+    "SCOvMAR": {
+      "home": 0,
+      "away": 1,
+      "status": "LIVE"
+    },
     "BRAvHAI": null,
     "TURvPAR": null,
     "NEDvSWE": null,
