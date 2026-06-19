@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T06:55:41.874Z",
+  "updated": "2026-06-19T19:58:12.135Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -144,7 +144,11 @@
       "away": 0,
       "status": "FINISHED"
     },
-    "USAvAUS": null,
+    "USAvAUS": {
+      "home": 2,
+      "away": 0,
+      "status": "LIVE"
+    },
     "SCOvMAR": null,
     "BRAvHAI": null,
     "TURvPAR": null,
