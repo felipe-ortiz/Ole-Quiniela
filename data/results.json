@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T23:04:14.367Z",
+  "updated": "2026-06-19T01:51:16.747Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -135,11 +135,15 @@
       "status": "FINISHED"
     },
     "CANvQAT": {
-      "home": 3,
+      "home": 6,
+      "away": 0,
+      "status": "FINISHED"
+    },
+    "MEXvKOR": {
+      "home": 0,
       "away": 0,
       "status": "LIVE"
     },
-    "MEXvKOR": null,
     "USAvAUS": null,
     "SCOvMAR": null,
     "BRAvHAI": null,
