@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T18:54:53.557Z",
+  "updated": "2026-06-20T20:13:50.295Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -165,11 +165,15 @@
       "status": "FINISHED"
     },
     "NEDvSWE": {
-      "home": 4,
+      "home": 5,
       "away": 1,
+      "status": "FINISHED"
+    },
+    "GERvCIV": {
+      "home": 0,
+      "away": 0,
       "status": "LIVE"
     },
-    "GERvCIV": null,
     "ECUvCUW": null,
     "TUNvJPN": null,
     "ESPvKSA": null,
