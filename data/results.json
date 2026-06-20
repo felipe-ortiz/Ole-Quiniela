@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T01:33:35.050Z",
+  "updated": "2026-06-20T06:01:24.464Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -157,9 +157,13 @@
     "BRAvHAI": {
       "home": 3,
       "away": 0,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
-    "TURvPAR": null,
+    "TURvPAR": {
+      "home": 0,
+      "away": 1,
+      "status": "FINISHED"
+    },
     "NEDvSWE": null,
     "GERvCIV": null,
     "ECUvCUW": null,
