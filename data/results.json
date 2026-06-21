@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T22:04:08.639Z",
+  "updated": "2026-06-21T23:41:10.871Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -195,8 +195,8 @@
       "status": "FINISHED"
     },
     "URUvCPV": {
-      "home": 0,
-      "away": 0,
+      "home": 2,
+      "away": 2,
       "status": "LIVE"
     },
     "NZLvEGY": null,
