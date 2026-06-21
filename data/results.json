@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T04:22:09.192Z",
+  "updated": "2026-06-21T08:45:14.897Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -181,8 +181,8 @@
     },
     "TUNvJPN": {
       "home": 0,
-      "away": 1,
-      "status": "LIVE"
+      "away": 4,
+      "status": "FINISHED"
     },
     "ESPvKSA": null,
     "BELvIRN": null,
