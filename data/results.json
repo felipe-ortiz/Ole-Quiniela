@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T20:44:50.619Z",
+  "updated": "2026-06-21T22:04:08.639Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -192,9 +192,13 @@
     "BELvIRN": {
       "home": 0,
       "away": 0,
+      "status": "FINISHED"
+    },
+    "URUvCPV": {
+      "home": 0,
+      "away": 0,
       "status": "LIVE"
     },
-    "URUvCPV": null,
     "NZLvEGY": null,
     "ARGvAUT": null,
     "FRAvIRQ": null,
