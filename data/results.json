@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T19:02:53.432Z",
+  "updated": "2026-06-21T20:44:50.619Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -185,11 +185,15 @@
       "status": "FINISHED"
     },
     "ESPvKSA": {
-      "home": 5,
+      "home": 4,
       "away": 0,
       "status": "FINISHED"
     },
-    "BELvIRN": null,
+    "BELvIRN": {
+      "home": 0,
+      "away": 0,
+      "status": "LIVE"
+    },
     "URUvCPV": null,
     "NZLvEGY": null,
     "ARGvAUT": null,
