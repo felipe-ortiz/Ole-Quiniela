@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T19:27:03.798Z",
+  "updated": "2026-06-22T21:38:20.949Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -209,7 +209,11 @@
       "away": 0,
       "status": "FINISHED"
     },
-    "FRAvIRQ": null,
+    "FRAvIRQ": {
+      "home": 1,
+      "away": 0,
+      "status": "LIVE"
+    },
     "NORvSEN": null,
     "JORvALG": null,
     "PORvUZB": null,
