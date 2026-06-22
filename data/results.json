@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T02:09:29.147Z",
+  "updated": "2026-06-22T07:41:17.015Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -201,8 +201,8 @@
     },
     "NZLvEGY": {
       "home": 1,
-      "away": 0,
-      "status": "LIVE"
+      "away": 3,
+      "status": "FINISHED"
     },
     "ARGvAUT": null,
     "FRAvIRQ": null,
