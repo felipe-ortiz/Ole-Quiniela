@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T08:08:28.950Z",
+  "updated": "2026-06-23T17:54:30.924Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -224,7 +224,11 @@
       "away": 2,
       "status": "FINISHED"
     },
-    "PORvUZB": null,
+    "PORvUZB": {
+      "home": 3,
+      "away": 0,
+      "status": "LIVE"
+    },
     "ENGvGHA": null,
     "PANvCRO": null,
     "COLvCOD": null,
