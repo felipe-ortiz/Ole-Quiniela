@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T00:18:34.103Z",
+  "updated": "2026-06-23T04:35:06.970Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -210,16 +210,20 @@
       "status": "FINISHED"
     },
     "FRAvIRQ": {
-      "home": 2,
+      "home": 3,
       "away": 0,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
     "NORvSEN": {
-      "home": 0,
+      "home": 3,
+      "away": 2,
+      "status": "FINISHED"
+    },
+    "JORvALG": {
+      "home": 1,
       "away": 0,
       "status": "LIVE"
     },
-    "JORvALG": null,
     "PORvUZB": null,
     "ENGvGHA": null,
     "PANvCRO": null,
