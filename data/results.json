@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T20:00:35.591Z",
+  "updated": "2026-06-23T21:48:14.993Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -229,7 +229,11 @@
       "away": 0,
       "status": "FINISHED"
     },
-    "ENGvGHA": null,
+    "ENGvGHA": {
+      "home": 0,
+      "away": 0,
+      "status": "SCHEDULED"
+    },
     "PANvCRO": null,
     "COLvCOD": null,
     "SUIvCAN": null,
