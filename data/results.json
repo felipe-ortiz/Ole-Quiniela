@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T22:54:57.403Z",
+  "updated": "2026-06-23T23:56:14.371Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -234,7 +234,11 @@
       "away": 0,
       "status": "FINISHED"
     },
-    "PANvCRO": null,
+    "PANvCRO": {
+      "home": 0,
+      "away": 0,
+      "status": "LIVE"
+    },
     "COLvCOD": null,
     "SUIvCAN": null,
     "BIHvQAT": null,
