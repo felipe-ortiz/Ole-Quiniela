@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T04:35:06.970Z",
+  "updated": "2026-06-23T08:08:28.950Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -221,8 +221,8 @@
     },
     "JORvALG": {
       "home": 1,
-      "away": 0,
-      "status": "LIVE"
+      "away": 2,
+      "status": "FINISHED"
     },
     "PORvUZB": null,
     "ENGvGHA": null,
