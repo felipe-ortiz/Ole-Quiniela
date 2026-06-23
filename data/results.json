@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T21:48:14.993Z",
+  "updated": "2026-06-23T22:54:57.403Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -232,7 +232,7 @@
     "ENGvGHA": {
       "home": 0,
       "away": 0,
-      "status": "SCHEDULED"
+      "status": "FINISHED"
     },
     "PANvCRO": null,
     "COLvCOD": null,
