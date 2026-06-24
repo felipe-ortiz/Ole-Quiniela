@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T19:42:02.272Z",
+  "updated": "2026-06-24T21:13:08.572Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -245,14 +245,14 @@
       "status": "FINISHED"
     },
     "SUIvCAN": {
-      "home": 0,
-      "away": 0,
-      "status": "LIVE"
+      "home": 2,
+      "away": 1,
+      "status": "FINISHED"
     },
     "BIHvQAT": {
-      "home": 2,
-      "away": 0,
-      "status": "LIVE"
+      "home": 3,
+      "away": 1,
+      "status": "FINISHED"
     },
     "SCOvBRA": null,
     "MARvHAI": null,
