@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T21:13:08.572Z",
+  "updated": "2026-06-24T22:41:02.580Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -254,8 +254,16 @@
       "away": 1,
       "status": "FINISHED"
     },
-    "SCOvBRA": null,
-    "MARvHAI": null,
+    "SCOvBRA": {
+      "home": 0,
+      "away": 2,
+      "status": "SCHEDULED"
+    },
+    "MARvHAI": {
+      "home": 0,
+      "away": 1,
+      "status": "SCHEDULED"
+    },
     "CZEvMEX": null,
     "RSAvKOR": null,
     "CUWvCIV": null,
