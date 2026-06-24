@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T03:50:50.874Z",
+  "updated": "2026-06-24T07:30:25.131Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -242,7 +242,7 @@
     "COLvCOD": {
       "home": 1,
       "away": 0,
-      "status": "SCHEDULED"
+      "status": "FINISHED"
     },
     "SUIvCAN": null,
     "BIHvQAT": null,
