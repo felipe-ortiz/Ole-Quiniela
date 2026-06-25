@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T20:22:25.263Z",
+  "updated": "2026-06-25T21:58:23.398Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -276,13 +276,13 @@
     },
     "CUWvCIV": {
       "home": 0,
-      "away": 1,
-      "status": "SCHEDULED"
+      "away": 2,
+      "status": "LIVE"
     },
     "ECUvGER": {
-      "home": 1,
+      "home": 2,
       "away": 1,
-      "status": "SCHEDULED"
+      "status": "LIVE"
     },
     "JPNvSWE": null,
     "TUNvNED": null,
