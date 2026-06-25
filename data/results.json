@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T06:01:51.351Z",
+  "updated": "2026-06-25T20:22:25.263Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -274,8 +274,16 @@
       "away": 0,
       "status": "FINISHED"
     },
-    "CUWvCIV": null,
-    "ECUvGER": null,
+    "CUWvCIV": {
+      "home": 0,
+      "away": 1,
+      "status": "SCHEDULED"
+    },
+    "ECUvGER": {
+      "home": 1,
+      "away": 1,
+      "status": "SCHEDULED"
+    },
     "JPNvSWE": null,
     "TUNvNED": null,
     "TURvUSA": null,
