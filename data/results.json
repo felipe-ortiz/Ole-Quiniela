@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T01:36:30.268Z",
+  "updated": "2026-06-26T05:54:13.399Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -267,35 +267,43 @@
     "CZEvMEX": {
       "home": 0,
       "away": 3,
-      "status": "FINISHED"
+      "status": "SCHEDULED"
     },
     "RSAvKOR": {
       "home": 1,
       "away": 0,
-      "status": "FINISHED"
+      "status": "SCHEDULED"
     },
     "CUWvCIV": {
       "home": 0,
       "away": 2,
-      "status": "FINISHED"
+      "status": "SCHEDULED"
     },
     "ECUvGER": {
       "home": 2,
       "away": 1,
-      "status": "FINISHED"
+      "status": "SCHEDULED"
     },
     "JPNvSWE": {
       "home": 1,
       "away": 1,
-      "status": "FINISHED"
+      "status": "SCHEDULED"
     },
     "TUNvNED": {
       "home": 1,
       "away": 3,
+      "status": "SCHEDULED"
+    },
+    "TURvUSA": {
+      "home": 3,
+      "away": 2,
       "status": "FINISHED"
     },
-    "TURvUSA": null,
-    "PARvAUS": null,
+    "PARvAUS": {
+      "home": 0,
+      "away": 0,
+      "status": "FINISHED"
+    },
     "NORvFRA": null,
     "SENvIRQ": null,
     "CPVvKSA": null,
