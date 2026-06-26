@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T23:24:42.787Z",
+  "updated": "2026-06-26T01:36:30.268Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -285,14 +285,14 @@
       "status": "FINISHED"
     },
     "JPNvSWE": {
-      "home": 0,
-      "away": 0,
-      "status": "LIVE"
+      "home": 1,
+      "away": 1,
+      "status": "FINISHED"
     },
     "TUNvNED": {
-      "home": 0,
-      "away": 2,
-      "status": "LIVE"
+      "home": 1,
+      "away": 3,
+      "status": "FINISHED"
     },
     "TURvUSA": null,
     "PARvAUS": null,
