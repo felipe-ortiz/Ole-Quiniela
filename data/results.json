@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T17:47:51.698Z",
+  "updated": "2026-06-26T19:23:44.525Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -304,8 +304,16 @@
       "away": 0,
       "status": "FINISHED"
     },
-    "NORvFRA": null,
-    "SENvIRQ": null,
+    "NORvFRA": {
+      "home": 0,
+      "away": 1,
+      "status": "SCHEDULED"
+    },
+    "SENvIRQ": {
+      "home": 1,
+      "away": 0,
+      "status": "SCHEDULED"
+    },
     "CPVvKSA": null,
     "URUvESP": null,
     "EGYvIRN": null,
