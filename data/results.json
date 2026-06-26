@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T19:23:44.525Z",
+  "updated": "2026-06-26T21:05:38.142Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -305,14 +305,14 @@
       "status": "FINISHED"
     },
     "NORvFRA": {
-      "home": 0,
-      "away": 1,
-      "status": "SCHEDULED"
+      "home": 1,
+      "away": 4,
+      "status": "FINISHED"
     },
     "SENvIRQ": {
-      "home": 1,
+      "home": 5,
       "away": 0,
-      "status": "SCHEDULED"
+      "status": "LIVE"
     },
     "CPVvKSA": null,
     "URUvESP": null,
