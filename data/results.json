@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T21:05:38.142Z",
+  "updated": "2026-06-26T22:22:12.240Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -312,7 +312,7 @@
     "SENvIRQ": {
       "home": 5,
       "away": 0,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
     "CPVvKSA": null,
     "URUvESP": null,
