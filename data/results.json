@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T22:46:05.591Z",
+  "updated": "2026-06-27T23:45:13.712Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -337,15 +337,23 @@
     "PANvENG": {
       "home": 0,
       "away": 2,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
     "CROvGHA": {
-      "home": 1,
+      "home": 2,
       "away": 1,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
-    "COLvPOR": null,
-    "CODvUZB": null,
+    "COLvPOR": {
+      "home": 0,
+      "away": 0,
+      "status": "SCHEDULED"
+    },
+    "CODvUZB": {
+      "home": 0,
+      "away": 0,
+      "status": "SCHEDULED"
+    },
     "ALGvAUT": null,
     "JORvARG": null
   }
