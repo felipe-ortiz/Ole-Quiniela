@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T21:46:27.728Z",
+  "updated": "2026-06-27T22:46:05.591Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -336,13 +336,13 @@
     },
     "PANvENG": {
       "home": 0,
-      "away": 0,
+      "away": 2,
       "status": "LIVE"
     },
     "CROvGHA": {
       "home": 1,
-      "away": 0,
-      "status": "SCHEDULED"
+      "away": 1,
+      "status": "LIVE"
     },
     "COLvPOR": null,
     "CODvUZB": null,
