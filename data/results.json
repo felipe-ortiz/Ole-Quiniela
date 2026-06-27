@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T01:34:39.347Z",
+  "updated": "2026-06-27T05:36:24.517Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -317,15 +317,23 @@
     "CPVvKSA": {
       "home": 0,
       "away": 0,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
     "URUvESP": {
       "home": 0,
       "away": 1,
-      "status": "LIVE"
+      "status": "FINISHED"
     },
-    "EGYvIRN": null,
-    "NZLvBEL": null,
+    "EGYvIRN": {
+      "home": 1,
+      "away": 1,
+      "status": "FINISHED"
+    },
+    "NZLvBEL": {
+      "home": 1,
+      "away": 5,
+      "status": "FINISHED"
+    },
     "PANvENG": null,
     "CROvGHA": null,
     "COLvPOR": null,
