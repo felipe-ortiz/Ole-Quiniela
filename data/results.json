@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T22:22:12.240Z",
+  "updated": "2026-06-27T01:34:39.347Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -314,8 +314,16 @@
       "away": 0,
       "status": "FINISHED"
     },
-    "CPVvKSA": null,
-    "URUvESP": null,
+    "CPVvKSA": {
+      "home": 0,
+      "away": 0,
+      "status": "LIVE"
+    },
+    "URUvESP": {
+      "home": 0,
+      "away": 1,
+      "status": "LIVE"
+    },
     "EGYvIRN": null,
     "NZLvBEL": null,
     "PANvENG": null,
