@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T01:55:39.922Z",
+  "updated": "2026-06-28T06:19:34.034Z",
   "topScorer": null,
   "leastConceded": null,
   "overrides": [],
@@ -354,7 +354,15 @@
       "away": 1,
       "status": "FINISHED"
     },
-    "ALGvAUT": null,
-    "JORvARG": null
+    "ALGvAUT": {
+      "home": 3,
+      "away": 3,
+      "status": "FINISHED"
+    },
+    "JORvARG": {
+      "home": 1,
+      "away": 3,
+      "status": "FINISHED"
+    }
   }
 }
